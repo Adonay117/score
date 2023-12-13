@@ -1,0 +1,248 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    font-size: 18px;
+}
+.note{
+    
+    color:  hsla(222, 100%, 96%, 0.997)
+}
+.titleResult{
+    color: hsl(241, 100%, 89%) ;
+  
+}
+
+.orPoint p{
+    margin: 0px;
+    color: hsla(241, 100%, 89%, 0.345);
+    font-size: 10px;
+
+}
+.card{
+    display: flex;
+    max-width: 550px;
+    flex-grow: 1;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow:  hsla(224, 30%, 27%, 0.049) 10px 10px 8px;
+
+
+}
+
+
+.point h1{
+    color: hsl(0, 0%, 100%) ;
+    margin: 0px;
+    font-size: 50px;
+
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 155px ;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.yourResult{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,hsl(252, 100%, 67% ), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    min-width: 250px;
+}
+
+.descriptionNote{
+   font-size: 12px;
+   color: hsl(241, 100%, 89%) ;
+   text-align: center;
+}
+.desNote{
+    margin: 0px;
+}
+
+
+/*summary*/
+
+
+.summaryResult{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 350px;
+    padding: 1.3rem 2rem 0rem 2rem;
+
+  
+}
+
+.nameIconCat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.categoryTest{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Reaction*/
+.catTitle-Reaction{
+    font-weight: 700;
+    color:  hsla(0, 100%, 67%, 0.781);
+    margin-left: 10px;
+    
+}
+.Reaction{
+
+    display: flex;
+    background-color: hsla(0, 100%, 67%, 0.07) ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 8px;
+    padding: 0rem 0.8rem 0rem 0.8rem;
+    font-size: 14px;
+    margin-bottom: 0.8rem;
+    height: 35px;
+   
+}
+
+.pointSummaty{
+    display: flex;
+    color: hsl(224, 30%, 27%) ;
+    font-weight: 800;
+}
+
+.of100{
+    margin-left: 5px;
+    color: hsla(224, 30%, 27%, 0.634);
+   
+}
+
+
+
+
+/*Memory*/
+.catTitle-Memory{
+    font-weight: 700;
+    color: hsl(39, 100%, 56%);
+    margin-left: 10px;
+    
+}
+.Memory{
+
+    display: flex;
+    background-color: hsla(39, 100%, 56%, 0.07) ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 8px;
+    padding: 0rem 0.8rem 0rem 0.8rem;
+    font-size: 14px;
+    margin-bottom: 0.8rem;
+    height: 35px;
+   
+}
+
+/*verbal*/
+.catTitle-Verbal{
+    font-weight: 700;
+    color: hsl(166, 100%, 37%);
+    margin-left: 10px;
+    
+}
+.Verbal{
+
+    display: flex;
+    background-color: hsl(166, 100%, 37%,0.07) ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 8px;
+    padding: 0rem 0.8rem 0rem 0.8rem;
+    font-size: 14px;
+    margin-bottom: 0.8rem;
+    height: 35px;
+   
+}
+
+/*Vision*/
+.catTitle-Visual{
+    font-weight: 700;
+    color:  hsl(234, 85%, 45%) ;
+    margin-left: 10px;
+    
+}
+.Visual{
+
+    display: flex;
+    background-color:  hsl(234, 85%, 45%,0.07)  ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 8px;
+    padding: 0rem 0.8rem 0rem 0.8rem;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    height: 35px;
+   
+}
+.noteG{
+    margin: 21px 0px 11px 0px;
+}
+
+
+.btn-c{
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    flex-grow: 1;
+    background-color: hsl(224, 30%, 27%) ;
+    color:  hsl(0, 0%, 100%);
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.btn-c:hover{
+    background: linear-gradient(to bottom,hsl(252, 100%, 67% ), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+
+
+
+/*by adonayaragon*/
+
+ @media(max-width: 768px){
+    .card{
+
+        flex-direction: column;
+        
+    
+    
+    }
+    .circle{
+       width: 120px;
+       height: 120px;
+    }
+
+ 
+    .summaryResult{
+       max-width: 100%;
+    }
+ }
